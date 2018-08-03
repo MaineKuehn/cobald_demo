@@ -1,0 +1,4 @@
+pipeline:
+  - __type__: cobald.controller.linear.LinearController
+  - __type__: cobald_demo.draw_line.DrawLineHook
+  - __type__: cobald_demo.cpu_pool.CpuPool
