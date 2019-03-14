@@ -3,7 +3,7 @@ import psutil
 import time
 
 from cobald.interfaces import Pool
-from cobald.daemon.service import service
+from cobald.daemon import service
 
 
 @service(flavour=threading)

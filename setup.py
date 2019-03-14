@@ -24,7 +24,7 @@ if __name__ == '__main__':
         packages=find_packages(),
         # dependencies
         install_requires=[
-            'cobald',
+            'cobald>=0.9.2',
             'psutil',
         ],
         # metadata for package search

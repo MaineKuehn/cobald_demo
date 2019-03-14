@@ -2,7 +2,7 @@ import weakref
 import trio
 
 from cobald.interfaces import PoolDecorator
-from cobald.daemon.service import service
+from cobald.daemon import service
 
 
 class DrawLineHook(PoolDecorator):
