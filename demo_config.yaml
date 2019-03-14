@@ -1,4 +1,7 @@
 pipeline:
   - __type__: cobald.controller.linear.LinearController
+    low_utilisation: 0.9
+    high_allocation: 1.1
   - __type__: cobald_demo.draw_line.DrawLineHook
   - __type__: cobald_demo.cpu_pool.CpuPool
+    interval: 1
