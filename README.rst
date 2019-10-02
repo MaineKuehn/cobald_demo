@@ -25,9 +25,12 @@ After installation, you can run it with one of the two example configuration fil
 
 .. code:: bash
 
+    python3 -m venv /tmp/cobalddemo/venv/ --clear
+    cd /tmp/cobalddemo/
     git clone https://github.com/MaineKuehn/cobald_demo.git
-    pip install --editable . --user
-    python3 -m cobald.daemon demo_config.yaml
+    source venv/bin/activate
+    python3 -m pip install --editable cobald_demo
+    python3 -m cobald.daemon cobald_demo/demo_config.yaml
 
 Looking around
 --------------
