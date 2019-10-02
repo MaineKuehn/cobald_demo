@@ -21,7 +21,7 @@ Usage
 -----
 
 You can pull in the entire demo and its dependencies using ``git`` and ``pip``.
-After installation, you can run it with one of the two example configuration files:
+Install it in a ``venv`` to isolate the demo:
 
 .. code:: bash
 
@@ -30,7 +30,13 @@ After installation, you can run it with one of the two example configuration fil
     git clone https://github.com/MaineKuehn/cobald_demo.git
     source venv/bin/activate
     python3 -m pip install --editable cobald_demo
+
+After installation, you can run the demo with one of the two example configuration files:
+
+.. code:: bash
+
     python3 -m cobald.daemon cobald_demo/demo_config.yaml
+    python3 -m cobald.daemon cobald_demo/demo_config.py
 
 Looking around
 --------------
